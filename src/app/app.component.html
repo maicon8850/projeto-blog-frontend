@@ -1,0 +1,6 @@
+<app-navbar *ngIf="usuario.isAuth()"></app-navbar>
+<div class="min-h-[80vh]">
+  <router-outlet></router-outlet>
+</div>
+<app-footer *ngIf="usuario.isAuth()"></app-footer>
+ 
