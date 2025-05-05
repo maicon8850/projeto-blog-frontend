@@ -23,6 +23,7 @@
     "@ng-icons/bootstrap-icons": "^26.4.0",
     "@ng-icons/core": "^26.4.0",
     "@ngneat/dialog": "^5.0.0",
+    "chart.js": "^4.4.9",
     "ngx-loading": "^17.0.0",
     "ngx-toastr": "^18.0.0",
     "rxjs": "~7.8.0",
