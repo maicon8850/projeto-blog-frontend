@@ -55,15 +55,14 @@ cd projeto-blog-frontend
 ```
 5.2. Instalando as dependências
 
+```
 npm install
 ```
-```
 5.3. Executando o projeto
-
+```
 ng serve
+```
 A aplicação estará disponível no endereço: http://localhost:4200
-
-
 
 ```
 ```
