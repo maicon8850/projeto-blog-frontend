@@ -7,7 +7,7 @@ export const environment = {
   foto: '',
   token: '',
   //api: 'https://blogpessoal-nest-qz4t.onrender.com',
-  api: '/api',
+  api: 'https://projeto-blog-f013.onrender.com',
 
 };
 //////// PARA DESENVOLVIMENTO QUANDO EU SUBIR NO AR ////////
