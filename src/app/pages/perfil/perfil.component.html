@@ -1,19 +1,21 @@
 <div class='container mx-auto mt-4 rounded-2xl overflow-hidden'>
 
+  <!-- AUMENTADO: de h-72 para h-96 -->
   <img
-      class='w-full h-72 object-cover border-b-8 border-white'
+      class='w-full h-96 object-cover border-b-8 border-white'
       src="https://i.imgur.com/ZZFAmzo.jpg" alt="Capa do Perfil" />
 
+  <!-- Manteve o tamanho da foto de perfil -->
   <img
       class='rounded-full w-56 mx-auto mt-[-8rem] border-8 border-white relative z-10'
-      src={{foto}} alt="Foto do perfil de {{nome}}"/>
+      src="{{foto}}" alt="Foto do perfil de {{nome}}"/>
 
-      <div 
-      class="relative my-[-6rem] h-72 flex flex-col text-white text-2xl items-center justify-center"
-      style="background-color: oklch(55.4% 0.046 257.417)"
-    >
-      <p>Nome: {{nome}} </p>
-      <p>Email: {{usuario}}</p>
+  <!-- Ajustado o padding vertical para compensar a nova altura da capa -->
+  <div 
+      class="relative my-[-6rem] h-80 flex flex-col text-white text-2xl items-center justify-center"
+      style="background-color: oklch(55.5% 0.163 48.998)">
+    <p>Nome: {{nome}} </p>
+    <p>Email: {{usuario}}</p>
   </div>
 
 </div>

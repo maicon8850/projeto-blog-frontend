@@ -5,5 +5,6 @@
     pathRewrite:{'^/api':''}
   }
 ];
+//ng serve --proxy-config proxy.config.js
 
 module.exports = PROXY_CONFIG;

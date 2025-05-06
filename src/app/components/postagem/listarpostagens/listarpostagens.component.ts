@@ -60,7 +60,7 @@ export class ListarpostagensComponent implements OnInit {
           this.router.navigate([''])
           break;
         default:
-          this.alertService.erro('', 'Erro ao Listar Tema')
+          this.alertService.erro('', 'Erro ao Listar Postagens')
           this.isLoading = false
       }
     }

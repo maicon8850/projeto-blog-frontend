@@ -35,10 +35,10 @@ export class DeletarpostagemComponent implements OnInit {
 
     window.scroll(0, 0)
 
-    // if (environment.token == '') {
-//   this.alertService.info('',"Token Inválido!")
-//   this.router.navigate(['/'])
-// }
+    if (environment.token === '') {
+      this.alertService.info('', "Token Inválido!")
+      this.router.navigate(['/'])
+    }
 
     this.postagemId = this.route.snapshot.params['id']
     this.getPostagemById()

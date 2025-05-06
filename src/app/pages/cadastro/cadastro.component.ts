@@ -42,7 +42,7 @@ export class CadastroComponent implements OnInit {
     this.confirmaSenha = event.target.value
   }
 
-  cadastrar() {
+   cadastrar() {
 
     if (this.usuario.senha === undefined)
       this.alertService.info('', 'A Senha é Obrigatória!')
@@ -75,4 +75,7 @@ export class CadastroComponent implements OnInit {
     }
     this.isLoading = false
   }
+
+
+  
 }

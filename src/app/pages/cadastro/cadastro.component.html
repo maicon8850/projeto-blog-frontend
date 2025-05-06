@@ -9,14 +9,17 @@
         class="border-2 border-slate-700 rounded p-2" />
     </div>
     <div class="flex flex-col w-full">
-      <label htmlFor="usuario">Usuario</label>
+      <label htmlFor="usuario">E-mail</label>
       <input [(ngModel)]='usuario.usuario' type="text" id="usuario" name="usuario" placeholder="Usuario"
         class="border-2 border-slate-700 rounded p-2" />
     </div>
+    
     <div class="flex flex-col w-full">
       <label htmlFor="foto">Foto</label>
-      <input [(ngModel)]='usuario.foto' type="text" id="foto" name="foto" placeholder="Foto"
+     <input [(ngModel)]='usuario.foto' type="text" id="foto" name="foto" placeholder="Foto"
         class="border-2 border-slate-700 rounded p-2" />
+       
+
     </div>
     <div class="flex flex-col w-full">
       <label htmlFor="senha">Senha</label>
@@ -36,7 +39,7 @@
       <button type='submit' class='rounded text-white bg-indigo-400
                            hover:bg-indigo-900 w-1/2 py-2
                            flex justify-center' (click)='cadastrar()'>
-        cadastrar
+        Cadastrar
       </button>
     </div>
   </form>

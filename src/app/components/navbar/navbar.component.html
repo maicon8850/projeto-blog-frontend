@@ -1,16 +1,27 @@
-<div class="w-full text-white flex justify-center py-4" style="background-color: oklch(21% 0.034 264.665)">
+<nav class="w-full px-10 py-8 shadow-sm sticky top-0 z-50" style="background-color: oklch(98.7% 0.022 95.277)">
+  <div class="max-w-6xl mx-auto flex items-center justify-between">
+    <!-- Logo -->
+    <a routerLink="/home" class="text-4xl font-extrabold text-black font-serif">Blog Pessoal</a>
 
-  <div class="container flex justify-between text-lg">
-    <a routerLink="/home" class="text-2xl font-bold">Blog Pessoal</a>
+    <!-- Links + Redes Sociais -->
+    <div class="flex items-center gap-12 text-black text-xl font-bold font-serif">
+      <a routerLink="/postagens" class="hover:text-red-500">Postagens</a>
+      <a routerLink="/temas" class="hover:text-red-500">Temas</a>
+      <a routerLink="/cadastrartema" class="hover:text-red-500">Cadastrar tema</a>
+      <a routerLink="/perfil" class="hover:text-red-500">Perfil</a>
+      <a routerLink="/dashboard" class="hover:text-red-500">Dashboard</a>
+      <a href="" (click)="logout()" class="hover:text-red-500">Sair</a>
 
-    <div class='flex gap-4'>
-      <a routerLink="/postagens" class="hover:underline">Postagens</a>
-      <a routerLink="/temas" class="hover:underline">Temas</a>
-      <a routerLink="/cadastrartema" class="hover:underline">Cadastrar tema</a>
-      <a routerLink="/perfil" class="hover:underline">Perfil</a>
-      <a href='' (click)='logout()' class="hover:underline">Sair</a>
+      <!-- Redes Sociais -->
+      <div class="flex gap-4 ml-12">
+        <a href="https://www.linkedin.com/in/maicon-douglas0066/" target="_blank" class="hover:opacity-80 transition">
+          <ng-icon name="bootstrapLinkedin" class="text-2xl"></ng-icon>
+        </a>
+        <a href="https://github.com/maicon8850" target="_blank" class="hover:opacity-80 transition">
+          <ng-icon name="bootstrapGithub" class="text-2xl"></ng-icon>
+        </a>
+
+      </div>
     </div>
-
   </div>
-
-</div>
+</nav>

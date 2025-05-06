@@ -25,23 +25,20 @@ export class CardpostagemComponent implements OnInit {
 
   }
 
-  getFormattedDate(data: string | Date) {
-    const dateObj = new Date(data);
-    dateObj.setHours(dateObj.getHours() + 3);
+ getFormattedDate(data: string | Date) {
+  const dateObj = new Date(data);
 
-    console.log("Data: ", dateObj);
+  return dateObj.toLocaleString('pt-BR', {
+    timeZone: 'America/Sao_Paulo',
+    weekday: 'long',
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric',
+    hour: 'numeric',
+    minute: 'numeric',
+    second: 'numeric',
+  });
+}
 
-    // Ajusta a data para o timezone correto
-    return dateObj.toLocaleString('pt-BR', {
-      timeZone: 'America/Sao_Paulo',
-      weekday: 'long',
-      day: 'numeric',
-      month: 'long',
-      year: 'numeric',
-      hour: 'numeric',
-      minute: 'numeric',
-      second: 'numeric',
-    });
-  }
 
 }

@@ -22,10 +22,18 @@
         <option *ngFor="let tema of listaTemas" value="{{tema.id}}">{{tema.descricao}}</option>
       </select>
     </div>
-    <button (click)="submitPostagem()" [disabled]="hasTema()" type='submit' class='rounded disabled:bg-slate-200 bg-indigo-400
-                  hover:bg-indigo-800 text-white font-bold w-1/2
-                  mx-auto py-2 flex justify-center'>
-      <span>{{ postagemId ? 'Atualizar' : 'Cadastrar' }}</span>
-    </button>
+    <button
+    (click)="submitPostagem()"
+    [disabled]="hasTema()"
+    type="submit"
+    [ngStyle]="{
+      'background-color': hasTema() ? 'oklch(97.3% 0.071 103.193)' : 'oklch(55.5% 0.163 48.998)',
+      'color': 'white'
+    }"
+    class="rounded font-bold w-1/2 mx-auto py-2 flex justify-center"
+  >
+    <span>{{ postagemId ? 'Atualizar' : 'Cadastrar' }}</span>
+  </button>
+  
   </form>
 </div>
