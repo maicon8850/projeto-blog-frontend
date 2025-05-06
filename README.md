@@ -52,9 +52,12 @@ Antes de iniciar, certifique-se de ter as seguintes ferramentas instaladas:
 ```bash
 git clone https://github.com/maicon8850/projeto-blog-frontend.git
 cd projeto-blog-frontend
+```
 5.2. Instalando as dependências
 
 npm install
+```
+```
 5.3. Executando o projeto
 
 ng serve
@@ -62,6 +65,9 @@ A aplicação estará disponível no endereço: http://localhost:4200
 
 
 
+```
+```
+---
 ## 6. 🧩 Estrutura do Projeto
 
 ```plaintext
@@ -75,8 +81,6 @@ src
         └── App           	  # Componente principal da aplicação
   	├── environments		 # Gerenciamento de estado global (ex: autenticação)
 ```
-
----
 
 7. 🔐 Autenticação e Validação de Token JWT
 🔄 Fluxo de Autenticação
