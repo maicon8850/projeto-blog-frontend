@@ -6,6 +6,5 @@ export const environment = {
   senha: '',
   foto: '',
   token: '',
-  api: '/api',   // para o spring 
-
+  api: 'https://projeto-blog-f013.onrender.com' // URL completa da sua API na Render
 };
