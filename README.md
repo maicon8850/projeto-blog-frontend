@@ -1,7 +1,5 @@
 # 🚀 Projeto Blog Pessoal - Parte 2 (Frontend)
 
-🔗 **Acesse o projeto online:**  
-[https://projeto-blog-frontend-lyart.vercel.app](https://projeto-blog-frontend-lyart.vercel.app)
 ## 1. 📋 Descrição
 
 O **Projeto Blog Pessoal** é um frontend desenvolvido com **Angular** para consumir uma API REST feita em **Java Spring Boot**. A aplicação permite o gerenciamento de **Usuários**, **Postagens** e **Temas**, utilizando autenticação com **JWT** para proteger rotas e garantir a segurança da aplicação.
@@ -64,9 +62,10 @@ npm install
 ```
 ng serve
 ```
-A aplicação estará disponível no endereço: http://localhost:4200
+A aplicação estará disponível no endereço:
 
 ```
+http://localhost:4200
 ```
 ---
 ## 6. 🧩 Estrutura do Projeto
@@ -124,7 +123,7 @@ Permite criar uma nova postagem vinculando-a a um tema existente.
 
 Gerenciamento de Temas
 Visualização e cadastro de temas utilizados nas postagens.
-### Fluxo de Autenticação
+
 ![image](https://github.com/user-attachments/assets/f4103c27-246b-4919-aacf-afd533f2cac8)
 
 
