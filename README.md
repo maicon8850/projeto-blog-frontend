@@ -95,13 +95,25 @@ Nas rotas protegidas, o token é validado antes do acesso aos recursos.
 🛡️ Controle de Autenticação
 Se o token expirar ou for inválido, o usuário será redirecionado para a página de login.
 
-8. 🖼️ Telas da Aplicação
-🔐 Página de Login
-Permite ao usuário se autenticar com e-mail e senha
+---
+
+## 8. ☁️ Deploy da Aplicação
+
+| Camada                | Plataforma         | Observação                                      |
+|----------------------|--------------------|-------------------------------------------------|
+| **Frontend**         | Vercel             | Aplicação Angular hospedada na Vercel          |
+| **Backend (API)**    | Render             | API Spring Boot hospedada na Render            |
+| **Banco de Dados**   | Aiven (MySQL) | Banco MySQL gerenciado via Aiven Cloud    |
+
+
+---
+
+
+## 9. 🖼️ Telas da Aplicação
 Abaixo estão algumas das telas desenvolvidas no frontend do Blog Pessoal:
 
-Página de Login
-Permite ao usuário se autenticar com e-mail e senha.
+🔐 Página de Login
+Permite ao usuário se autenticar com e-mail e senha
 ![image](https://github.com/user-attachments/assets/bd7f2fea-276c-4d85-b972-d049c0f4db70)
 
 
